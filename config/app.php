@@ -14,8 +14,8 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-    // 'link_website' => env('LINK_WEBSITE', 'http://10.14.143.89/portal-web/public'),
-    'link_website' => env('LINK_WEBSITE', 'http://10.14.179.250:1111'),
+    'link_website' => env('LINK_WEBSITE', 'http://10.14.143.89/portal-web/public'),
+    // 'link_website' => env('LINK_WEBSITE', 'http://10.14.179.250:1111'),
 
     /*
     |--------------------------------------------------------------------------

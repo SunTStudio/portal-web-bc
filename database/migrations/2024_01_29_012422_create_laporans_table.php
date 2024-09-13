@@ -20,6 +20,7 @@ class CreateLaporansTable extends Migration
             $table->integer('auditor_id')->references('id')->on('users');
             $table->integer('PIC_id')->references('id')->on('users');
             $table->string('wo')->nullable();
+            $table->string('noWO')->nullable();
             $table->integer('dept_ehs_id')->references('id')->on('users')->nullable();
             $table->integer('dept_pic_id')->references('id')->on('users')->nullable();
             $table->integer('team_id')->nullable();

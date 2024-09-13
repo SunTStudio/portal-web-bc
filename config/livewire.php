@@ -54,8 +54,8 @@ return [
     |
     */
 
-    'asset_url' => null,
-    // 'asset_url' => '/portal-web/public',
+    // 'asset_url' => null,
+    'asset_url' => '/portal-web/public',
 
     /*
     |--------------------------------------------------------------------------
